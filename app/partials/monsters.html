@@ -1,0 +1,12 @@
+<div>
+    <h4 class="">Monsters:</h4>
+    <input type="text" class="form-control monsters-list-input" data-ng-model="monsterName"/>
+    <ul class="list-group monsters-list">
+        <a href="#monsters/{{ monster.name }}" class="list-group-item"
+           data-ng-repeat="monster in monsters.results | filter:monsterName | orderBy:'name'"
+           data-ng-click="">
+            <span class="badge">{{ monster.hd }}</span>
+            {{ monster.name }}
+        </a>
+    </ul>
+</div>

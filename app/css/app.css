@@ -1,5 +1,21 @@
 /* app css stylesheet */
 
+.monsters-list {
+    max-height: 600px;
+    overflow-y:scroll;
+    width: 300px;
+    left: 1000px;
+}
+
+.monsters-list-input {
+    width: 300px;
+    left: 1000px;
+}
+
+.row {
+    max-width: 99%;
+}
+
 body {
     padding-top: 50px;
     overflow: hidden;

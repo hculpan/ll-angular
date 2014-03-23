@@ -1,0 +1,15 @@
+<p>
+    <h4>{{ monster.results[0].name }} ({{ monster.results[0].enc_dungeon }}/{{ monster.results[0].enc_lair }})</h4>
+    <p>
+        AC {{ monster.results[0].ac_asc }} [{{ monster.results[0].ac_desc}}];
+        {{ monster.results[0].move }};
+        HD {{ monster.results[0].hd }};
+        #AT {{ monster.results[0].attacks }};
+        D {{ monster.results[0].damage }};
+        Save {{ monster.results[0].save }};
+        ML {{ monster.results[0].morale }};
+        XP {{ monster.results[0].xp }};
+        THC {{ monster.results[0].hoard_class }}
+    </p>
+    <a href="#monsters" class="btn btn-primary">&lt;&lt;&lt;&lt;</a>
+</p>
